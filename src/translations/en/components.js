@@ -1,5 +1,5 @@
 export default {
-  title: "⭐️ Core components",
+  title: "⭐️ Components",
   description:
     "Components are the main building blocks for user interfaces. Building a reusable component library enhances your product development workflow by reducing design and tech debt and speeding up the process. Core components can’t be broken down into granular pieces without losing their meaning.",
   sections: {
@@ -461,7 +461,7 @@ export default {
       },
     },
     "c-image": {
-      title: "Image",
+      title: "Image (optional)",
       description:
         "Utility for displaying images and controlling their behavior.",
       checklist: {
@@ -488,7 +488,7 @@ export default {
       },
     },
     "c-link": {
-      title: "Link",
+      title: "Link (optional)",
       description:
         "Interactive text element used for navigation within the text paragraphs.",
       checklist: {
