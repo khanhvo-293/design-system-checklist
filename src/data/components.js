@@ -298,24 +298,6 @@ export default {
       ],
     },
     {
-      id: "c-icon",
-      checklist: ["c-icon-colors", "c-icon-sizes", "c-icon-a11y-decoration"],
-      resources: [
-        {
-          title: "Reshaped: Icon",
-          url: "https://reshaped.so/docs/utilities/icon",
-        },
-        {
-          title: "React Spectrum: Icon",
-          url: "https://react-spectrum.adobe.com/react-spectrum/workflow-icons.html",
-        },
-        {
-          title: "Polaris: Icon",
-          url: "https://polaris.shopify.com/components/icon",
-        },
-      ],
-    },
-    {
       id: "c-image",
       checklist: [
         "c-image-sizes",

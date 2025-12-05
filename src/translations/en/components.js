@@ -277,7 +277,7 @@ export default {
       },
     },
     "c-card": {
-      title: "Card",
+      title: "Card (optional)",
       description:
         "Container to group information about subjects and their related actions.",
       checklist: {
@@ -309,7 +309,7 @@ export default {
       },
     },
     "c-carousel": {
-      title: "Carousel",
+      title: "Carousel (optional)",
       description:
         "Horizontal scrollable areas used for displaying grouped content.",
       checklist: {
