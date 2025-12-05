@@ -55,6 +55,10 @@ const App = ({ Component, pageProps }) => {
           content="https://designsystemchecklist.com/meta-v2.png"
         />
         <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
+        <link
           rel="manifest"
           href="https://designsystemchecklist.com/site.webmanifest"
         />

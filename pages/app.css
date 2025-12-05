@@ -1,15 +1,13 @@
 @import "../src/assets/styles/reset.css";
 @import "../src/assets/styles/variables.css";
-@import "../src/assets/fonts/sneak.css";
 
 body {
-  font-family: "Sneak", Arial, Helvetica, sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-size: var(--font-size-body);
   line-height: var(--line-height-body);
   background: var(--color-background);
   color: var(--color-text);
   -webkit-font-smoothing: antialiased;
-  font-feature-settings: "calt", "ss03";
 }
 
 *:focus {
