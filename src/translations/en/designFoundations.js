@@ -1,5 +1,5 @@
 export default {
-  title: "Foundations",
+  title: "⭐️ Foundations",
   description:
     "Design assets and tokens that store values for the base layer of your design system, like color and typography. They’re used in components, so changes on this level will resonate throughout the whole system.",
   sections: {
