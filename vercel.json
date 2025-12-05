@@ -1,0 +1,6 @@
+{
+  "buildCommand": "NODE_OPTIONS=--openssl-legacy-provider next build",
+  "env": {
+    "NODE_OPTIONS": "--openssl-legacy-provider"
+  }
+}
