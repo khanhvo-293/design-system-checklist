@@ -82,10 +82,6 @@ export default {
       ],
     },
     {
-      id: "df-motion",
-      checklist: ["df-motion-easing", "df-motion-duration", "df-motion-a11y"],
-    },
-    {
       id: "df-iconography",
       checklist: [
         "df-iconography-a11y",
