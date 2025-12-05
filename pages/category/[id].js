@@ -75,9 +75,10 @@ const CategoryRoute = (props) => {
             previousLabel={t.core.previous}
             nextLabel={t.core.next}
             next={
-              next
-                ? { text: next.title, url: `/category/${next.id}/` }
-                : { text: t.core.exportAction, url: "/share/" }
+              next && {
+                text: next.title,
+                url: `/category/${next.id}/`,
+              }
             }
             previous={
               previous && {
