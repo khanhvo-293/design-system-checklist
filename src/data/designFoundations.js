@@ -6,7 +6,6 @@ export default {
       checklist: [
         "df-color-a11y",
         "df-color-semantic",
-        "df-color-dark-mode",
         "df-color-guidelines",
       ],
       resources: [
