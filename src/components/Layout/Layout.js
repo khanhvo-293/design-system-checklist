@@ -2,7 +2,6 @@ import React from "react";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 import { useRouter } from "next/router";
 import Header from "../Header";
-import Footer from "../Footer";
 import s from "./Layout.module.css";
 
 const Layout = ({ t, children }) => {
@@ -25,7 +24,6 @@ const Layout = ({ t, children }) => {
           >
             <div className={s.container}>
               <div className={s.content}>{children}</div>
-              <Footer t={t} />
             </div>
           </CSSTransition>
         )}

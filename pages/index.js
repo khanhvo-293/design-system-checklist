@@ -1,8 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import Layout from "../src/components/Layout";
-import Button from "../src/components/Button";
-import Hero from "../src/components/Hero";
 import SectionTitle from "../src/components/SectionTitle";
 import ArrowRightIcon from "../src/icons/arrowRight";
 import data from "../src/data";
@@ -47,19 +45,14 @@ const HomeRoute = (props) => {
   return (
     <Layout t={t}>
       <div className={s.container}>
-        <Hero title={t.core.heroTitle} subtitle={t.core.heroSubtitle}>
-          <Link href="/category/design-language">
-            <Button text={t.core.heroAction} />
-          </Link>
-        </Hero>
         <ul className={s.list}>{items.map(renderItem)}</ul>
       </div>
     </Layout>
   );
 };
 
-export async function getStaticProps({ locale }) {
-  const t = (await import(`../src/translations/${locale}/index`)).default;
+export async function getStaticProps() {
+  const t = (await import(`../src/translations/en/index`)).default;
 
   return {
     props: { t },
