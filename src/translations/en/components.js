@@ -2,6 +2,7 @@ export default {
   title: "⭐️ Components",
   description:
     "Components are the main building blocks for user interfaces. Building a reusable component library enhances your product development workflow by reducing design and tech debt and speeding up the process. Core components can’t be broken down into granular pieces without losing their meaning.",
+  link: "https://www.notion.so/How-to-build-a-Component-checklist-2c3c4e3d70e88058a6a7c5f7656dac6a?source=copy_link",
   sections: {
     "c-accordion": {
       title: "Accordion",
@@ -688,7 +689,7 @@ export default {
       },
     },
     "c-radio": {
-      title: "Input radio",
+      title: "Radio",
       description:
         "Radio is a form element used for selecting one option from a list.",
       checklist: {
