@@ -36,6 +36,7 @@ const CategoryRoute = (props) => {
         <Hero
           title={categoryTranslations.title}
           subtitle={categoryTranslations.description}
+          link={categoryTranslations.link}
         />
         <div className={s.sections}>
           {sections.map((section) => {

@@ -18,6 +18,20 @@
   margin-top: var(--spacing-16);
 }
 
+.link {
+  display: inline-block;
+  margin-top: var(--spacing-16);
+  color: var(--color-primary-dark);
+  text-decoration: none;
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-body);
+  transition: opacity 0.2s ease;
+}
+
+.link:hover {
+  opacity: 0.7;
+}
+
 .content {
   margin-top: var(--spacing-48);
 }
